@@ -11,13 +11,15 @@
     <link rel="stylesheet" href="../css/jquery-ui.min.css">
     <link href="..\css\main.css" rel="stylesheet">
     <link href="..\css\mediaQueri.css" rel="stylesheet">
+    <link rel="stylesheet" href="..\css\horizontalaccordion.css">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-  </head>
+   
+</head>
     <body>
    <div class="container" id="wrapper">
     <div class="row">
@@ -59,60 +61,92 @@
    </section><!-- leftMenuSection -->
 
 <section class="rightSideSection">
-  <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12 rightSideContent">
-       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-         <h3>Header for content</h3>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque enim velit laboriosam magnam blanditiis et, fugiat rem laudantium iste id, ratione perspiciatis obcaecati deleniti aspernatur. Illum quam voluptatum in sit.
+<div class="col-lg-10 col-md-10 col-sm-10 col-xs-12 rightSideContent paddTop">
 
-         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus sint optio temporibus cum cupiditate porro, iste dicta tempora aperiam consequatur corporis eos dolores cumque, quia necessitatibus, est voluptatum exercitationem dolorem.
-         </p>
-        </div>  
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<h3>Our header for Content</h3>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, quisquam earum quod? Totam fuga iure praesentium, nisi accusamus aliquam facere nihil fugiat hic quae repellat culpa, eligendi soluta sed laudantium?
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, quisquam earum quod? Totam fuga iure praesentium, nisi accusamus aliquam facere nihil fugiat hic quae repellat culpa, eligendi soluta sed laudantium?
+</p>
+</div> 
 
+<article class="horizontal-accordion">
 
+  <section id="acc1" class="headerContent">
+    <h2><a href="#acc1">Title One</a></h2>
+   <span class="body-content">
+     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident explicabo quod recusandae a delectus porro. Repudiandae alias praesentium tempora maxime totam hic consectetur voluptatem accusamus, ratione exercitationem, dolorem tenetur, veritatis.</p>
 
-   <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
-     
+     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident explicabo quod recusandae a delectus porro. Repudiandae alias praesentium tempora maxime totam hic consectetur voluptatem accusamus, ratione exercitationem, dolorem tenetur, veritatis.</p>
 
-     <div class="accordion">
-  <h4>Header one</h4>
-  <div>
-    <p>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.</p>
-  </div>
- </div><!-- accordion -->   
-   </div><!-- header1 -->
+     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident explicabo quod recusandae a delectus porro. Repudiandae alias praesentium tempora maxime totam hic consectetur voluptatem accusamus, ratione exercitationem, dolorem tenetur, veritatis.</p>
 
-    <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
-      
-      <div class="accordion">
-  <h4>Header two</h4>
-  <div>
-    <p>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.</p>
-  </div>
- </div><!-- accordion -->   
-   </div> 
+     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident explicabo quod recusandae a delectus porro. Repudiandae alias praesentium tempora maxime totam hic consectetur voluptatem accusamus, ratione exercitationem, dolorem tenetur, veritatis.</p>
+    
+   </span>
+  </section>
+  
+  <section id="acc2" class="headerContent">
+    <h2><a href="#acc2">Title Two</a></h2>
+    <span class="body-content">
+     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident explicabo quod recusandae a delectus porro. Repudiandae alias praesentium tempora maxime totam hic consectetur voluptatem accusamus, ratione exercitationem, dolorem tenetur, veritatis.</p>
 
-    <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
-      
-      <div class="accordion">
-  <h4>Header three</h4>
-  <div>
-    <p>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.</p>
-  </div>
- </div><!-- accordion -->  
-   </div> 
+     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident explicabo quod recusandae a delectus porro. Repudiandae alias praesentium tempora maxime totam hic consectetur voluptatem accusamus, ratione exercitationem, dolorem tenetur, veritatis.</p>
 
-    <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
-      
-      <div class="accordion">
-  <h4>Header four</h4>
-  <div>
-    <p>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.</p>
-  </div>
- </div><!-- accordion --> 
-   </div>  
+     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident explicabo quod recusandae a delectus porro. Repudiandae alias praesentium tempora maxime totam hic consectetur voluptatem accusamus, ratione exercitationem, dolorem tenetur, veritatis.</p>
 
+     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident explicabo quod recusandae a delectus porro. Repudiandae alias praesentium tempora maxime totam hic consectetur voluptatem accusamus, ratione exercitationem, dolorem tenetur, veritatis.</p>
+   </span>
+  </section>
+  
+  <section id="acc3" class="headerContent">
+    <h2><a href="#acc3">Title Three</a></h2>
+    <span class="body-content">
+     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident explicabo quod recusandae a delectus porro. Repudiandae alias praesentium tempora maxime totam hic consectetur voluptatem accusamus, ratione exercitationem, dolorem tenetur, veritatis.</p>
 
-  </div><!-- rightSideContent -->
+     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident explicabo quod recusandae a delectus porro. Repudiandae alias praesentium tempora maxime totam hic consectetur voluptatem accusamus, ratione exercitationem, dolorem tenetur, veritatis.</p>
+
+     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident explicabo quod recusandae a delectus porro. Repudiandae alias praesentium tempora maxime totam hic consectetur voluptatem accusamus, ratione exercitationem, dolorem tenetur, veritatis.</p>
+
+     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident explicabo quod recusandae a delectus porro. Repudiandae alias praesentium tempora maxime totam hic consectetur voluptatem accusamus, ratione exercitationem, dolorem tenetur, veritatis.</p>
+   </span>
+  </section>
+  
+  <section id="acc4" class="headerContent">
+    <h2><a href="#acc4">Title Four</a></h2>
+    <span class="body-content">
+     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident explicabo quod recusandae a delectus porro. Repudiandae alias praesentium tempora maxime totam hic consectetur voluptatem accusamus, ratione exercitationem, dolorem tenetur, veritatis.</p>
+
+     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident explicabo quod recusandae a delectus porro. Repudiandae alias praesentium tempora maxime totam hic consectetur voluptatem accusamus, ratione exercitationem, dolorem tenetur, veritatis.</p>
+
+     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident explicabo quod recusandae a delectus porro. Repudiandae alias praesentium tempora maxime totam hic consectetur voluptatem accusamus, ratione exercitationem, dolorem tenetur, veritatis.</p>
+
+     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident explicabo quod recusandae a delectus porro. Repudiandae alias praesentium tempora maxime totam hic consectetur voluptatem accusamus, ratione exercitationem, dolorem tenetur, veritatis.</p>
+   </span>
+  </section>
+  
+  <section id="acc5" class="headerContent">
+    <h2><a href="#acc5">Title Five</a></h2>
+    <span class="body-content">
+     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident explicabo quod recusandae a delectus porro. Repudiandae alias praesentium tempora maxime totam hic consectetur voluptatem accusamus, ratione exercitationem, dolorem tenetur, veritatis.</p>
+
+     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident explicabo quod recusandae a delectus porro. Repudiandae alias praesentium tempora maxime totam hic consectetur voluptatem accusamus, ratione exercitationem, dolorem tenetur, veritatis.</p>
+
+     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident explicabo quod recusandae a delectus porro. Repudiandae alias praesentium tempora maxime totam hic consectetur voluptatem accusamus, ratione exercitationem, dolorem tenetur, veritatis.</p>
+
+     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident explicabo quod recusandae a delectus porro. Repudiandae alias praesentium tempora maxime totam hic consectetur voluptatem accusamus, ratione exercitationem, dolorem tenetur, veritatis.</p>
+   </span>
+  </section>
+
+</article>
+        
+
+   
+
+    
+
+</div><!-- rightSideContent -->
 </section><!-- rightSection -->
 
 
