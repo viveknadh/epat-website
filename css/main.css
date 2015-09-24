@@ -143,6 +143,9 @@ section{
 #wrapper .navbar-nav{
   margin: 0!important;
 }
+#wrapper  .navbar{
+  margin-bottom: 0 !important;
+}
 #wrapper .collapse .navbar-nav li{
   width:100%;
   padding: 0;
@@ -182,8 +185,14 @@ section{
   border-bottom: 1px solid white;
 
 }
-.epat-logo{
-  background-color: black;
+.epat-logo img{
+  width: 90%;
+
+  
+  left: 295px;
+  height: 88px;
+}
+/* background-color: black; */
 
 }
 .epat-logo-text{
@@ -203,114 +212,134 @@ section{
   font-size: 40px;
   margin: 0;
 }
-.rightSideContent .epat-search, .searchform{
+/* .rightSideContent .epat-search, .searchform{
   text-align: right;
-}
-.rightSideContent .searchform {
-  padding:0 !important;
-}
-.rightSideContent .padding0Cls{
-  padding:0;
-}
-.rightSideContent .horizontalLine{
-  border-top: 4px solid #040404;
-  margin-bottom: 0;
-}
-.rightSideContent .highLitStrip h2,.highLitStrip2 h2 {
-  text-align: left;
-  margin-top: -37px;
-  margin-bottom: 9px;
-  margin-left: 175px;
-  color: white;
-}
-.highLitStrip2 h2{
-  margin-left: 54px !important;
-  font-size: 18pt;
-  visibility: visible;
-  margin-top: -30px;
-  margin-bottom: 10px;
-}
-.rightSideContent .highLitStrip2 img{
-  width: 46%;
-}
-.rightSideContent .servicesOffered{
- /*  border-top: 4px solid #040404; */
-  margin-bottom: 0;
-  margin-top: 0;
-}
-.rightSideContent .gridSection h4{
-  font-size: 16px;
-  font-weight: bold;
-}
-.rightSideContent .gridSection .GridDivider{
-  border-right: 2px solid black;
-}
-.rightSideContent .gridSection{
-  margin-top: 20px;
-  float: left;
-}
-/* servive page css */
+  } */
+  .rightSideContent .searchform {
+    padding:0 !important;
+  }
+  .rightSideContent .padding0Cls{
+    padding:0;
+  }
+  .rightSideContent .horizontalLine{
+    border-top: 4px solid #040404;
+    margin-bottom: 0;
+  }
+  .rightSideContent .highLitStrip h2{
+    text-align: left;
+    margin-top: -37px;
+    margin-bottom: 9px;
+    margin-left: 175px;
+    color: white;
+  }
+
+  .gridSection h4{
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .gridSection{
+    margin-top: 10px;
+    float: left;
+  }
+  /* servive page css */
 
 
 
-/* css for patentArt page start here */
-.StateOfSerchSection .patentInfoBlock p{
-  background-color: #FDC685;
-  padding: 10px;
-}
-.StateOfSerchSection h2{
-  background-color: #FDC685;
-}
+  /* css for patentArt page start here */
+  .StateOfSerchSection .patentInfoBlock p{
+    background-color: #FDC685;
+    padding: 10px;
+  }
+  .StateOfSerchSection h2{
+    background-color: #FDC685;
+  }
 
-.StateOfSerchSection .leftSearchReqForm .form-control {
-  float: right;
-  display: block;
-  width: 72%;
-  height: 34px;
-  padding: 6px 12px;
-  font-size: 14px;
-  line-height: 1.42857143;
-  color: #555;
-  background-color: #fff;
-  background-image: none;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
-  box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
-  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
-  -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
-  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
-}
+  .StateOfSerchSection .leftSearchReqForm .form-control {
+    float: right;
+    display: block;
+    width: 72%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  }
 
-.leftSearchReqForm h5,.rightSearchReqForm h5,.exploreServices h5{
-  background: #000;
-  color: #fff;
-  padding: 5px;
-  width: 40%;
-}
-.exploreServices h5{
-  width:67% !important;
-}
+  .leftSearchReqForm h5,.rightSearchReqForm h5,.exploreServices h5{
+    background: #000;
+    color: #fff;
+    padding: 5px;
+    width: 40%;
+  }
+  .exploreServices h5{
+    width:67% !important;
+  }
 
 
-/* css for home page carousel start*/ 
+  /* css for home page carousel start*/ 
 
-#carouselSection .carousel-inner img{
-  width:100%;
-}
+  #carouselSection .carousel-inner img{
+    width:100%;
+  }
 
-#carousel-id{
-  position: relative;
-}
+  #carousel-id{
+    position: relative;
+  }
 
-#SecondCarouselSection{
-  
- position: absolute;
-    top: 320px;
-    right: 19px;
-    width: 45%;
-}
-.displayNone{
-display: none;
+  #SecondCarouselSection{
+
+   position: absolute;
+   top: 218px;
+   right: 19px;
+   width: 45%;
+ }
+ .displayNone{
+  display: none;
 }
 /* css for home page carousel end*/ 
+
+
+
+#wrapper .services-offers-section{
+  background: #FCC369;
+}
+#wrapper .services-offers-section h4{
+  font-weight: bold;
+  padding-left: 26px;
+}
+.gridHeaer {
+  background-color: #FE6804;
+}
+.gridHeaer h4{
+  padding-left:26px; 
+}
+#wrapper .gridSection h4{
+  text-align: center;
+}
+
+.gridSection .thumbnail{
+ border:none !important;
+}
+
+.gridSection .thumbnail .headerTitle{
+      width:100%;
+      float:left;
+      margin-bottom: 25px;
+}
+
+.gridSection .thumbnail .innerBadge{
+    padding: 5px;
+    float: left;
+    border-bottom: 3px solid #FF6905;
+    font-size: 1.3em;
+    font-weight: 200;
+}
