@@ -1,0 +1,320 @@
+body{
+  overflow-x:hidden;
+}
+#header{
+  background-image: url("../images/magnifying-glass.jpg");
+  background-repeat: no-repeat;
+  background-size: 920px 720px;
+  float: left;
+  background-position: 125px 25px;
+  height: 630px;
+}
+#header h1 label.solutions{
+  font-size: 3.5em !important;
+  margin-left: 2%;
+}
+#header h1 label.pat,#header h1 i{
+text-shadow: -3px 1px 3px #02375F;
+font-size: 4.8em;
+}
+#header h1{
+text-shadow: -3px 1px 3px #02375F;
+position: absolute;
+bottom: 35%;
+color:grey;
+width: 100%;
+text-align: center;
+}
+
+#header h3{
+text-shadow: -3px 1px 3px #02375F;
+  font-size: 2em;
+  position: absolute;
+  background-color: lightgrey;
+  bottom: 33%;
+  right: 0;
+  color: white;
+  padding: 0.3%;
+  width: 35%;
+  text-align: center;
+}
+#header h6{
+text-shadow: -3px 1px 3px #02375F;
+  font-size: 2em;
+  position: absolute;
+  top: 8%;
+  text-align: left;
+  left: 5%;
+  color: black;
+  width: 100%;
+}
+
+
+#header h3 i{
+color: white !important;
+}
+#header .clickBtn{
+font-size: 1em;
+  position: absolute;
+  bottom: 10%;
+  right: 5%;
+  padding: 1%;
+  text-align: right;
+  width: 100%;
+}
+.pat{
+color: #02375F;
+}
+.pat:hover{
+color: #02375F;
+}
+.solutions:hover{
+color: #05CEE8;
+}
+
+#header .clickBtn span{
+  background: #02375F;
+  padding:8px;
+  color:white;
+  border-radius: 5px;
+}
+#header .clickBtn span:hover{
+padding:10px;
+cursor: pointer;
+background: #05CEE8;
+}
+#header h1 i{
+  color: red !important;
+    font-weight: bold;
+}
+
+#header{
+  float: left;
+  width: 100%;
+}
+.marTop20{
+  margin-top: 20px;
+}
+.paddingTop20{
+padding-top: 20px;
+}
+.marBtm20{
+  margin-top: 20px;
+}
+.paddingBtm20{
+padding-bottom: 20px;
+}
+
+#homeView{
+  background-image: url("../images/eps.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  overflow: hidden;
+}
+.minHeight525{
+min-height: 525px
+}
+
+.blackBorder{
+  padding:10px;
+  background-color: black;
+  width: 100%;
+  float: left;
+  margin: 0;
+}
+
+.btmFixed{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+/* servive page css */
+#wrapper .navbar-header img{
+max-width: 100%;
+padding: 6px;
+    
+}
+#wrapper .navbar-nav{
+  margin: 0!important;
+}
+#wrapper .collapse .navbar-nav li{
+width:100%;
+padding: 0;
+}
+#wrapper .navbar-collapse {
+padding:0;
+}
+#wrapper .navbar-default .navbar-nav li a {
+    color: #F5F2F2;
+    padding: 23px;
+}
+
+#wrapper #nav-home{
+background: rgba(254, 182, 69, 0.79); 
+
+}
+#wrapper #nav-aboutus{
+background: #fea704; 
+}
+#wrapper #nav-ourteam{
+background-color: #FE9604;
+}
+#wrapper #nav-services{
+background-color: #FE6804;
+}
+#wrapper #nav-process{
+background-color: #FE3904;
+}
+#wrapper #nav-ipaddress{
+background-color: #E40707;
+}
+#wrapper #nav-contactus{
+background-color: #C10B0B;
+}
+#wrapper .home{
+text-align: center;
+border-bottom: 1px solid white;
+
+}
+.epat-logo{
+  background-color: black;
+
+}
+.epat-logo-text{
+  text-align: center;
+}
+#wrapper .leftSideContent{
+padding:0;
+}
+#wrapper .rightSideContent{
+    padding: 0;
+    height: auto;
+
+}
+#wrapper .rightSideContent-h1{
+  font-weight: bold;
+    margin-bottom: 0;
+    font-size: 40px;
+    margin: 0;
+}
+.rightSideContent .epat-search, .searchform{
+text-align: right;
+}
+.rightSideContent .searchform {
+padding:0 !important;
+}
+.rightSideContent .padding0Cls{
+  padding:0;
+}
+.rightSideContent .horizontalLine{
+border-top: 4px solid #040404;
+margin-bottom: 0;
+}
+.rightSideContent .highLitStrip h2,.highLitStrip2 h2 {
+
+}
+.highLitStrip2 h2{
+    width: 25%;
+    height: 36px;
+    background-color: #FCC369;
+    padding-left: 8px;
+    font-size: 1.8em;
+    font-weight: bold;
+    line-height: 37px;
+    color: white;
+    z-index: 99999;
+    position: relative;
+}
+.rightSideContent .highLitStrip2 img{
+    width: 4%;
+    position: absolute;
+    bottom: 0px;
+    top: 49px;
+    left: 13px;
+}
+.rightSideContent .servicesOffered{
+border-top: 4px solid #040404;
+margin-bottom: 0;
+margin-top: 0;
+}
+
+.rightSideContent .gridSection h4{
+      font-size: 16px;
+    font-weight: bold;
+}
+.rightSideContent .gridSection .GridDivider{
+      border-right: 2px solid black;
+}
+.rightSideContent .gridSection{
+float: left;
+}
+/* servive page css */
+
+
+
+/* css for patentArt page start here */
+.StateOfSerchSection .patentInfoBlock p{
+  background-color: #FDC685;
+  padding: 10px;
+}
+.StateOfSerchSection h2{
+  background-color: #FDC685;
+}
+
+.StateOfSerchSection .leftSearchReqForm .form-control {
+    float: right;
+    display: block;
+    width: 72%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+.headings{
+    background: #000;
+    color: #fff;
+    padding: 5px;
+    width: 40%;
+     text-align: right;
+         padding-right: 15px;
+}
+.leftSearchReqForm h5,.rightSearchReqForm h5,.exploreServices h5{
+  background: #000;
+    color: #fff;
+    padding: 5px;
+    width: 40%;
+}
+.exploreServices h5{
+width:67% !important;
+}
+.accordion .ui-accordion .ui-accordion-content {
+    padding: 13px !important;
+    border-top: 0;
+    overflow: auto; 
+}
+
+/* css for services page end here */ 
+
+.gridSection{
+  background-image: url('../images/16583.jpg');
+background-repeat: no-repeat;
+background-size: 100% 100%;
+color: white;
+}
+.black-wrapper{
+  width: 100%;
+  float: left;
+  height: auto;
+background-color: rgba(0, 5, 8, 0.85);
+}

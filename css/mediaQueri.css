@@ -1,0 +1,14 @@
+@media screen and (max-width: 767px) {
+   #wrapper .navbar-default .navbar-nav li a {
+    color: #F5F2F2;
+    padding: 10px;
+}
+.navbar-nav{
+	overflow-y: hidden;
+}
+
+#wrapper .rightSideContent-h1{
+  font-weight: bold;
+    margin-bottom: 0;
+    font-size: 25px;
+}
