@@ -234,7 +234,7 @@ section{
   width: 46%;
 }
 .rightSideContent .servicesOffered{
-  border-top: 4px solid #040404;
+ /*  border-top: 4px solid #040404; */
   margin-bottom: 0;
   margin-top: 0;
 }
@@ -306,9 +306,9 @@ section{
 #SecondCarouselSection{
   
  position: absolute;
- top: 180px;
- right: 70px;
- width: 50%;
+    top: 320px;
+    right: 19px;
+    width: 45%;
 }
 .displayNone{
 display: none;
